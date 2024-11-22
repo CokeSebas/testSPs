@@ -1,0 +1,12 @@
+.container {
+    width: 100%;       /* Ocupa todo el ancho de la página */
+    /*height: 100vh;     /* Ocupa toda la altura de la ventana */
+    /*display: flex;     /* Flexbox para manejar el contenido dentro del contenedor */
+    flex-direction: column; /* Si quieres que los elementos dentro estén en columna */
+    justify-content: center; /* Centra el contenido en el eje vertical */
+    align-items: center; /* Centra el contenido en el eje horizontal */
+    padding: 20px;     /* Espaciado interno (opcional) */
+    box-sizing: border-box; /* Asegura que el padding no se sume al tamaño del contenedor */
+    background-color: #f4f4f4; /* Fondo para visibilidad (opcional) */
+  }
+  
